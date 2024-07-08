@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/twilight-cloud_1203-6585.jpg?t=st=1720417690~exp=1720421290~hmac=9ebb62cd36cfde1a85108bcb878a4f10ac84c781908b7aece1c22c2edf0dfec4&w=1800') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+label{
+    color:black ;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.subject label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#semesters-inputs input {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 50%;
+        margin: auto;
+    }
+}
